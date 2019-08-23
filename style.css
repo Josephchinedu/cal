@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, #F2856D 0%, #3A668C 100%);
+}
+
+#calc{
+  margin-top:20px;
+
+  
+}
+
+#main_app{
+    border-radius: 5px;
+    position: relative;
+    background-color: #fff;
+   
+}
+#previous-result{
+    background-color: #3A668C;
+    text-align: right;
+    padding: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#result{
+    background-color:#6F9ABF;
+    text-align: right;
+    padding: 7px;
+}
+#result p,
+#previous-result p{
+    margin-right: 10px;
+    color: #fff;
+}
+
+#main{
+    margin-top: 30px;
+}
+
+.row button{
+    display: inline-block;
+    border-radius: 50%;
+    background: #eee;
+    border: none;
+    margin: auto;
+}
+.row button:last-child{
+    background-color: #3A668C;
+    color: #fff;
+}
+#row{
+    margin-bottom: 30px;
+}
